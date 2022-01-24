@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+   
+}
+body{
+ background-color:black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(187, 188, 201);
+   
+
+}
+
+header {
+    position: fixed;
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1500px;
+    padding-bottom:350px;
+    
+}
+
+header .logo {
+    font-size: 50px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
