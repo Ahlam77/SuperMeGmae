@@ -119,6 +119,7 @@ let platforms = [];
 let genericObjects = [];
 let lastKey;
 
+
 const keys = {
   right: {
     pressed: false,
